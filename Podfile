@@ -4,4 +4,5 @@ target "TestTemplateProject" do
     pod 'SDWebImage'
     pod 'ReactiveCocoa'
     pod 'Masonry'
+    pod 'IQKeyboardManager'
 end

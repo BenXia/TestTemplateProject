@@ -14,5 +14,6 @@
 
 #import "ReactiveCocoa.h"
 #import "Masonry.h"
+#import "KeyboardManager.h"
 
 #endif /* PrefixHeader_pch */

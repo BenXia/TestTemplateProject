@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>IQKeyboardManager.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Masonry.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,7 +37,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>0659B71386995AC7EE2A305F0A360EB1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>18E263F3E93F92421EF3B160A6BE6614</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>29A818A688D0261B74BC06DAD0F8F9AB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5E57C81408210B183EE1B5F484CC1FD5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -43,6 +63,11 @@
 			<true/>
 		</dict>
 		<key>9DC8D9E02903E93BD0B2FEC9D846EA20</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FC5A1BA005F1D18C83BCF52966F57BEA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
