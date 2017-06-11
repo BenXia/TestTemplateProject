@@ -20,6 +20,8 @@
 		330F7C071ED3494D0009280A /* HomePageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 330F7C051ED3494D0009280A /* HomePageVC.xib */; };
 		330F7C0D1ED349AB0009280A /* UIView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 330F7C0B1ED349AB0009280A /* UIView+Helper.m */; };
 		337EEC291EDC3F2C00EDC166 /* NSObject+DLIntrospection.m in Sources */ = {isa = PBXBuildFile; fileRef = 337EEC281EDC3F2C00EDC166 /* NSObject+DLIntrospection.m */; };
+		33A83A241EED5F2500CB6705 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A83A221EED5F2500CB6705 /* TestViewController.m */; };
+		33A83A251EED5F2500CB6705 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33A83A231EED5F2500CB6705 /* TestViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,9 @@
 		330F7ECC1ED352250009280A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		337EEC271EDC3F2C00EDC166 /* NSObject+DLIntrospection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DLIntrospection.h"; sourceTree = "<group>"; };
 		337EEC281EDC3F2C00EDC166 /* NSObject+DLIntrospection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DLIntrospection.m"; sourceTree = "<group>"; };
+		33A83A211EED5F2500CB6705 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		33A83A221EED5F2500CB6705 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		33A83A231EED5F2500CB6705 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 		5C6D28EEC1B5E3424CF2308B /* Pods-TestTemplateProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTemplateProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestTemplateProject/Pods-TestTemplateProject.debug.xcconfig"; sourceTree = "<group>"; };
 		8667C82644C5D48169DF56D2 /* Pods-TestTemplateProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTemplateProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestTemplateProject/Pods-TestTemplateProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -184,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				330F7BEF1ED333F00009280A /* 首页 */,
+				33A83A201EED5E5600CB6705 /* 测试页面 */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -214,6 +220,16 @@
 				337EEC281EDC3F2C00EDC166 /* NSObject+DLIntrospection.m */,
 			);
 			path = DLIntrospection;
+			sourceTree = "<group>";
+		};
+		33A83A201EED5E5600CB6705 /* 测试页面 */ = {
+			isa = PBXGroup;
+			children = (
+				33A83A211EED5F2500CB6705 /* TestViewController.h */,
+				33A83A221EED5F2500CB6705 /* TestViewController.m */,
+				33A83A231EED5F2500CB6705 /* TestViewController.xib */,
+			);
+			path = "测试页面";
 			sourceTree = "<group>";
 		};
 		7B8C9382664DA89AC4C34223 /* Pods */ = {
@@ -267,7 +283,7 @@
 				TargetAttributes = {
 					330F7BBC1ED3321F0009280A = {
 						CreatedOnToolsVersion = 8.3.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -295,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				330F7C071ED3494D0009280A /* HomePageVC.xib in Resources */,
+				33A83A251EED5F2500CB6705 /* TestViewController.xib in Resources */,
 				330F7C021ED334380009280A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,6 +378,7 @@
 				330F7C0D1ED349AB0009280A /* UIView+Helper.m in Sources */,
 				330F7C061ED3494D0009280A /* HomePageVC.m in Sources */,
 				330F7BFB1ED333F00009280A /* Ben_CustomiseView.m in Sources */,
+				33A83A241EED5F2500CB6705 /* TestViewController.m in Sources */,
 				330F7BFA1ED333F00009280A /* Ben_CradleView.m in Sources */,
 				330F7C001ED333F00009280A /* main.m in Sources */,
 				337EEC291EDC3F2C00EDC166 /* NSObject+DLIntrospection.m in Sources */,
@@ -466,6 +484,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = TestTemplateProject/Sources/Global/PrefixHeader.pch;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
@@ -474,6 +493,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = iOSStudio.TestTemplateProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
@@ -484,6 +504,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = TestTemplateProject/Sources/Global/PrefixHeader.pch;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
@@ -492,6 +513,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = iOSStudio.TestTemplateProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
