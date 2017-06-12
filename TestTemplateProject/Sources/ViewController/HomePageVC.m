@@ -7,7 +7,7 @@
 //
 
 #import "HomePageVC.h"
-#import "TestViewController.h"
+#import "PlaygroundVC.h"
 
 typedef void(^Block)(void);
 
@@ -19,9 +19,43 @@ static const CGFloat kTableViewCellHeight = 60.0f;
 @property (nonatomic, copy) NSString *subTitle;
 @property (nonatomic, copy) Block didSelectCellHandleBlock;
 
++ (instancetype)modelWithTitle:(NSString *)title
+                      subTitle:(NSString *)subTitle
+                       vcClass:(Class)vcClass
+                  navigationVC:(UINavigationController *)navigationVC;
+
++ (instancetype)modelWithTitle:(NSString *)title
+                      subTitle:(NSString *)subTitle
+      didSelectCellHandleBlock:(Block)didSelectCellHandleBlock;
+
 @end
 
 @implementation HomePageCellModel
+
++ (instancetype)modelWithTitle:(NSString *)title
+                      subTitle:(NSString *)subTitle
+                       vcClass:(Class)vcClass
+                  navigationVC:(UINavigationController *)navigationVC {
+    
+    return [HomePageCellModel modelWithTitle:title
+                                    subTitle:subTitle
+                    didSelectCellHandleBlock:^{
+                        UIViewController *vc = [[vcClass alloc] init];
+                        [navigationVC pushViewController:vc animated:YES];
+                    }];
+}
+
+
++ (instancetype)modelWithTitle:(NSString *)title
+                      subTitle:(NSString *)subTitle
+      didSelectCellHandleBlock:(Block)didSelectCellHandleBlock {
+    HomePageCellModel *model = [HomePageCellModel new];
+    model.title = title;
+    model.subTitle = subTitle;
+    model.didSelectCellHandleBlock = didSelectCellHandleBlock;
+    
+    return model;
+}
 
 @end
 
@@ -40,18 +74,11 @@ static const CGFloat kTableViewCellHeight = 60.0f;
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-    HomePageCellModel *model1 = [HomePageCellModel new];
-    model1.title = @"测试内容标题";
-    model1.subTitle = @"测试内容的简单介绍";
+    HomePageCellModel *model1 = [HomePageCellModel modelWithTitle:@"测试内容主题"
+                                                         subTitle:@"测试内容描述"
+                                                          vcClass:[PlaygroundVC class]
+                                                     navigationVC:self.navigationController];
     
-    @weakify(self);
-    model1.didSelectCellHandleBlock = ^{
-        @strongify(self);
-        TestViewController *vc = [[TestViewController alloc] init];
-        
-        [self.navigationController pushViewController:vc animated:YES];
-        
-    };
     self.dataSourceArray = [NSArray arrayWithObjects:model1, nil];
 }
 
