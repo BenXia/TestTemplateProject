@@ -1,5 +1,5 @@
 //
-//  PlaygroundVC.h
+//  BNTabBarController.h
 //  TestTemplateProject
 //
 //  Created by Ben on 2017/5/22.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PlaygroundVC : UIViewController
+@interface BNTabBarController : UITabBarController
 
 @end
+
+
