@@ -19,9 +19,15 @@
 		B50394D91EEE71E00016FA97 /* HomePageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B50394D71EEE71E00016FA97 /* HomePageVC.xib */; };
 		B50394DE1EEE71FB0016FA97 /* PlaygroundVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B50394DC1EEE71FB0016FA97 /* PlaygroundVC.m */; };
 		B50394DF1EEE71FB0016FA97 /* PlaygroundVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B50394DD1EEE71FB0016FA97 /* PlaygroundVC.xib */; };
+		B507113D1F0E4A39008EC4AE /* BaseWindowRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B507113C1F0E4A39008EC4AE /* BaseWindowRootVC.m */; };
+		B50711511F0E4A4A008EC4AE /* BNPopoverWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B507114A1F0E4A4A008EC4AE /* BNPopoverWindow.m */; };
+		B50711521F0E4A4A008EC4AE /* BNPopoverWindowRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B507114C1F0E4A4A008EC4AE /* BNPopoverWindowRootVC.m */; };
+		B507115C1F0E4AB3008EC4AE /* BNPopoverBaseLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B50711551F0E4AB3008EC4AE /* BNPopoverBaseLayout.m */; };
+		B507115D1F0E4AB3008EC4AE /* BNPopoverBottomLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B50711571F0E4AB3008EC4AE /* BNPopoverBottomLayout.m */; };
+		B507115E1F0E4AB3008EC4AE /* BNPopoverCustomLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B50711591F0E4AB3008EC4AE /* BNPopoverCustomLayout.m */; };
+		B507115F1F0E4AB3008EC4AE /* BNPopoverMiddleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B507115B1F0E4AB3008EC4AE /* BNPopoverMiddleLayout.m */; };
 		B5647F8B1EF8FB4C009CF536 /* BNPopupWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B5647F8A1EF8FB4C009CF536 /* BNPopupWindow.m */; };
 		B5647F8F1EF9084E009CF536 /* BasePopoverVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B5647F8E1EF9084E009CF536 /* BasePopoverVC.m */; };
-		B5647F931EF908F4009CF536 /* BaseWindowRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B5647F921EF908F4009CF536 /* BaseWindowRootVC.m */; };
 		B5647F991EF90B1F009CF536 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = B5647F961EF90B1F009CF536 /* MBProgressHUD+Add.m */; };
 		B5647F9A1EF90B1F009CF536 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B5647F981EF90B1F009CF536 /* MBProgressHUD.m */; };
 		B5647F9D1EF90E7C009CF536 /* UIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5647F9C1EF90E7C009CF536 /* UIView+Hierarchy.m */; };
@@ -64,12 +70,25 @@
 		B50394DB1EEE71FB0016FA97 /* PlaygroundVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaygroundVC.h; sourceTree = "<group>"; };
 		B50394DC1EEE71FB0016FA97 /* PlaygroundVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaygroundVC.m; sourceTree = "<group>"; };
 		B50394DD1EEE71FB0016FA97 /* PlaygroundVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaygroundVC.xib; sourceTree = "<group>"; };
+		B507113B1F0E4A39008EC4AE /* BaseWindowRootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseWindowRootVC.h; sourceTree = "<group>"; };
+		B507113C1F0E4A39008EC4AE /* BaseWindowRootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseWindowRootVC.m; sourceTree = "<group>"; };
+		B507113F1F0E4A4A008EC4AE /* BNPopoverCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNPopoverCommon.h; sourceTree = "<group>"; };
+		B50711491F0E4A4A008EC4AE /* BNPopoverWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNPopoverWindow.h; sourceTree = "<group>"; };
+		B507114A1F0E4A4A008EC4AE /* BNPopoverWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNPopoverWindow.m; sourceTree = "<group>"; };
+		B507114B1F0E4A4A008EC4AE /* BNPopoverWindowRootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNPopoverWindowRootVC.h; sourceTree = "<group>"; };
+		B507114C1F0E4A4A008EC4AE /* BNPopoverWindowRootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNPopoverWindowRootVC.m; sourceTree = "<group>"; };
+		B50711541F0E4AB3008EC4AE /* BNPopoverBaseLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNPopoverBaseLayout.h; sourceTree = "<group>"; };
+		B50711551F0E4AB3008EC4AE /* BNPopoverBaseLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNPopoverBaseLayout.m; sourceTree = "<group>"; };
+		B50711561F0E4AB3008EC4AE /* BNPopoverBottomLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNPopoverBottomLayout.h; sourceTree = "<group>"; };
+		B50711571F0E4AB3008EC4AE /* BNPopoverBottomLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNPopoverBottomLayout.m; sourceTree = "<group>"; };
+		B50711581F0E4AB3008EC4AE /* BNPopoverCustomLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNPopoverCustomLayout.h; sourceTree = "<group>"; };
+		B50711591F0E4AB3008EC4AE /* BNPopoverCustomLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNPopoverCustomLayout.m; sourceTree = "<group>"; };
+		B507115A1F0E4AB3008EC4AE /* BNPopoverMiddleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNPopoverMiddleLayout.h; sourceTree = "<group>"; };
+		B507115B1F0E4AB3008EC4AE /* BNPopoverMiddleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNPopoverMiddleLayout.m; sourceTree = "<group>"; };
 		B5647F891EF8FB4C009CF536 /* BNPopupWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNPopupWindow.h; sourceTree = "<group>"; };
 		B5647F8A1EF8FB4C009CF536 /* BNPopupWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNPopupWindow.m; sourceTree = "<group>"; };
 		B5647F8D1EF9084E009CF536 /* BasePopoverVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePopoverVC.h; sourceTree = "<group>"; };
 		B5647F8E1EF9084E009CF536 /* BasePopoverVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePopoverVC.m; sourceTree = "<group>"; };
-		B5647F911EF908F4009CF536 /* BaseWindowRootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseWindowRootVC.h; sourceTree = "<group>"; };
-		B5647F921EF908F4009CF536 /* BaseWindowRootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseWindowRootVC.m; sourceTree = "<group>"; };
 		B5647F951EF90B1F009CF536 /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
 		B5647F961EF90B1F009CF536 /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
 		B5647F971EF90B1F009CF536 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
@@ -272,6 +291,43 @@
 			path = Playground;
 			sourceTree = "<group>";
 		};
+		B507113A1F0E4A39008EC4AE /* BaseWindowRootVC */ = {
+			isa = PBXGroup;
+			children = (
+				B507113B1F0E4A39008EC4AE /* BaseWindowRootVC.h */,
+				B507113C1F0E4A39008EC4AE /* BaseWindowRootVC.m */,
+			);
+			path = BaseWindowRootVC;
+			sourceTree = "<group>";
+		};
+		B507113E1F0E4A4A008EC4AE /* BNPopoverWindow */ = {
+			isa = PBXGroup;
+			children = (
+				B50711491F0E4A4A008EC4AE /* BNPopoverWindow.h */,
+				B507114A1F0E4A4A008EC4AE /* BNPopoverWindow.m */,
+				B507114B1F0E4A4A008EC4AE /* BNPopoverWindowRootVC.h */,
+				B507114C1F0E4A4A008EC4AE /* BNPopoverWindowRootVC.m */,
+				B507113F1F0E4A4A008EC4AE /* BNPopoverCommon.h */,
+				B50711531F0E4AB3008EC4AE /* BNPopoverLayoutStrategy */,
+			);
+			path = BNPopoverWindow;
+			sourceTree = "<group>";
+		};
+		B50711531F0E4AB3008EC4AE /* BNPopoverLayoutStrategy */ = {
+			isa = PBXGroup;
+			children = (
+				B50711541F0E4AB3008EC4AE /* BNPopoverBaseLayout.h */,
+				B50711551F0E4AB3008EC4AE /* BNPopoverBaseLayout.m */,
+				B50711561F0E4AB3008EC4AE /* BNPopoverBottomLayout.h */,
+				B50711571F0E4AB3008EC4AE /* BNPopoverBottomLayout.m */,
+				B50711581F0E4AB3008EC4AE /* BNPopoverCustomLayout.h */,
+				B50711591F0E4AB3008EC4AE /* BNPopoverCustomLayout.m */,
+				B507115A1F0E4AB3008EC4AE /* BNPopoverMiddleLayout.h */,
+				B507115B1F0E4AB3008EC4AE /* BNPopoverMiddleLayout.m */,
+			);
+			path = BNPopoverLayoutStrategy;
+			sourceTree = "<group>";
+		};
 		B5647F871EF8FAEC009CF536 /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -296,15 +352,6 @@
 				B5647F8E1EF9084E009CF536 /* BasePopoverVC.m */,
 			);
 			path = BasePopoverVC;
-			sourceTree = "<group>";
-		};
-		B5647F901EF908F4009CF536 /* BaseWindowRootVC */ = {
-			isa = PBXGroup;
-			children = (
-				B5647F911EF908F4009CF536 /* BaseWindowRootVC.h */,
-				B5647F921EF908F4009CF536 /* BaseWindowRootVC.m */,
-			);
-			path = BaseWindowRootVC;
 			sourceTree = "<group>";
 		};
 		B5647F941EF90B1F009CF536 /* MBProgressHUD */ = {
@@ -338,7 +385,8 @@
 			children = (
 				B5FA68A41EF26F870077349C /* BaseViewController */,
 				B5647F8C1EF9084E009CF536 /* BasePopoverVC */,
-				B5647F901EF908F4009CF536 /* BaseWindowRootVC */,
+				B507113A1F0E4A39008EC4AE /* BaseWindowRootVC */,
+				B507113E1F0E4A4A008EC4AE /* BNPopoverWindow */,
 				B5FA68A71EF26F870077349C /* BNNavigationController */,
 				B5FA68AA1EF26F870077349C /* BNTabBarController */,
 			);
@@ -502,26 +550,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B507115D1F0E4AB3008EC4AE /* BNPopoverBottomLayout.m in Sources */,
 				B5647FF41EF912EE009CF536 /* UIImage+Blur.m in Sources */,
 				33144EF91EF05218006D27AC /* NSString+Size.m in Sources */,
 				33144EF61EF05059006D27AC /* UIUtils.m in Sources */,
 				B5FA68AD1EF26F870077349C /* BaseViewController.m in Sources */,
+				B507115C1F0E4AB3008EC4AE /* BNPopoverBaseLayout.m in Sources */,
 				B5FA68AE1EF26F870077349C /* BNNavigationController.m in Sources */,
 				B5647FA81EF90EC1009CF536 /* GCDQueue.m in Sources */,
 				B50394D81EEE71E00016FA97 /* HomePageVC.m in Sources */,
+				B50711511F0E4A4A008EC4AE /* BNPopoverWindow.m in Sources */,
 				B50394DE1EEE71FB0016FA97 /* PlaygroundVC.m in Sources */,
 				330F7BF61ED333F00009280A /* AppDelegate.m in Sources */,
+				B507115F1F0E4AB3008EC4AE /* BNPopoverMiddleLayout.m in Sources */,
 				B5647F9A1EF90B1F009CF536 /* MBProgressHUD.m in Sources */,
 				B5647F991EF90B1F009CF536 /* MBProgressHUD+Add.m in Sources */,
 				B5647F8B1EF8FB4C009CF536 /* BNPopupWindow.m in Sources */,
 				B5647F9D1EF90E7C009CF536 /* UIView+Hierarchy.m in Sources */,
 				330F7C0D1ED349AB0009280A /* UIView+Helper.m in Sources */,
 				B5647FA71EF90EC1009CF536 /* GCDGroup.m in Sources */,
+				B50711521F0E4A4A008EC4AE /* BNPopoverWindowRootVC.m in Sources */,
 				B5647FA91EF90EC1009CF536 /* GCDSemaphore.m in Sources */,
-				B5647F931EF908F4009CF536 /* BaseWindowRootVC.m in Sources */,
 				B5FA68AF1EF26F870077349C /* BNTabBarController.m in Sources */,
 				330F7C001ED333F00009280A /* main.m in Sources */,
 				B5647F8F1EF9084E009CF536 /* BasePopoverVC.m in Sources */,
+				B507115E1F0E4AB3008EC4AE /* BNPopoverCustomLayout.m in Sources */,
+				B507113D1F0E4A39008EC4AE /* BaseWindowRootVC.m in Sources */,
 				B5647FF71EF91BC7009CF536 /* CommonUtils.m in Sources */,
 				337EEC291EDC3F2C00EDC166 /* NSObject+DLIntrospection.m in Sources */,
 			);
