@@ -386,9 +386,9 @@
 				B5FA68A41EF26F870077349C /* BaseViewController */,
 				B5647F8C1EF9084E009CF536 /* BasePopoverVC */,
 				B507113A1F0E4A39008EC4AE /* BaseWindowRootVC */,
-				B507113E1F0E4A4A008EC4AE /* BNPopoverWindow */,
 				B5FA68A71EF26F870077349C /* BNNavigationController */,
 				B5FA68AA1EF26F870077349C /* BNTabBarController */,
+				B507113E1F0E4A4A008EC4AE /* BNPopoverWindow */,
 			);
 			path = Base;
 			sourceTree = "<group>";
