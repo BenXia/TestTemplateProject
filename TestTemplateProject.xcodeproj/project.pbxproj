@@ -25,7 +25,7 @@
 		B507115C1F0E4AB3008EC4AE /* BNPopoverBaseLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B50711551F0E4AB3008EC4AE /* BNPopoverBaseLayout.m */; };
 		B507115D1F0E4AB3008EC4AE /* BNPopoverBottomLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B50711571F0E4AB3008EC4AE /* BNPopoverBottomLayout.m */; };
 		B507115E1F0E4AB3008EC4AE /* BNPopoverCustomLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B50711591F0E4AB3008EC4AE /* BNPopoverCustomLayout.m */; };
-		B507115F1F0E4AB3008EC4AE /* BNPopoverMiddleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B507115B1F0E4AB3008EC4AE /* BNPopoverMiddleLayout.m */; };
+		B507115F1F0E4AB3008EC4AE /* BNPopoverCenterLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B507115B1F0E4AB3008EC4AE /* BNPopoverCenterLayout.m */; };
 		B5647F8B1EF8FB4C009CF536 /* BNPopupWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B5647F8A1EF8FB4C009CF536 /* BNPopupWindow.m */; };
 		B5647F8F1EF9084E009CF536 /* BasePopoverVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B5647F8E1EF9084E009CF536 /* BasePopoverVC.m */; };
 		B5647F991EF90B1F009CF536 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = B5647F961EF90B1F009CF536 /* MBProgressHUD+Add.m */; };
@@ -83,8 +83,8 @@
 		B50711571F0E4AB3008EC4AE /* BNPopoverBottomLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNPopoverBottomLayout.m; sourceTree = "<group>"; };
 		B50711581F0E4AB3008EC4AE /* BNPopoverCustomLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNPopoverCustomLayout.h; sourceTree = "<group>"; };
 		B50711591F0E4AB3008EC4AE /* BNPopoverCustomLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNPopoverCustomLayout.m; sourceTree = "<group>"; };
-		B507115A1F0E4AB3008EC4AE /* BNPopoverMiddleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNPopoverMiddleLayout.h; sourceTree = "<group>"; };
-		B507115B1F0E4AB3008EC4AE /* BNPopoverMiddleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNPopoverMiddleLayout.m; sourceTree = "<group>"; };
+		B507115A1F0E4AB3008EC4AE /* BNPopoverCenterLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNPopoverCenterLayout.h; sourceTree = "<group>"; };
+		B507115B1F0E4AB3008EC4AE /* BNPopoverCenterLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNPopoverCenterLayout.m; sourceTree = "<group>"; };
 		B5647F891EF8FB4C009CF536 /* BNPopupWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNPopupWindow.h; sourceTree = "<group>"; };
 		B5647F8A1EF8FB4C009CF536 /* BNPopupWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNPopupWindow.m; sourceTree = "<group>"; };
 		B5647F8D1EF9084E009CF536 /* BasePopoverVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePopoverVC.h; sourceTree = "<group>"; };
@@ -320,10 +320,10 @@
 				B50711551F0E4AB3008EC4AE /* BNPopoverBaseLayout.m */,
 				B50711561F0E4AB3008EC4AE /* BNPopoverBottomLayout.h */,
 				B50711571F0E4AB3008EC4AE /* BNPopoverBottomLayout.m */,
+				B507115A1F0E4AB3008EC4AE /* BNPopoverCenterLayout.h */,
+				B507115B1F0E4AB3008EC4AE /* BNPopoverCenterLayout.m */,
 				B50711581F0E4AB3008EC4AE /* BNPopoverCustomLayout.h */,
 				B50711591F0E4AB3008EC4AE /* BNPopoverCustomLayout.m */,
-				B507115A1F0E4AB3008EC4AE /* BNPopoverMiddleLayout.h */,
-				B507115B1F0E4AB3008EC4AE /* BNPopoverMiddleLayout.m */,
 			);
 			path = BNPopoverLayoutStrategy;
 			sourceTree = "<group>";
@@ -562,7 +562,7 @@
 				B50711511F0E4A4A008EC4AE /* BNPopoverWindow.m in Sources */,
 				B50394DE1EEE71FB0016FA97 /* PlaygroundVC.m in Sources */,
 				330F7BF61ED333F00009280A /* AppDelegate.m in Sources */,
-				B507115F1F0E4AB3008EC4AE /* BNPopoverMiddleLayout.m in Sources */,
+				B507115F1F0E4AB3008EC4AE /* BNPopoverCenterLayout.m in Sources */,
 				B5647F9A1EF90B1F009CF536 /* MBProgressHUD.m in Sources */,
 				B5647F991EF90B1F009CF536 /* MBProgressHUD+Add.m in Sources */,
 				B5647F8B1EF8FB4C009CF536 /* BNPopupWindow.m in Sources */,
