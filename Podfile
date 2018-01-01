@@ -12,6 +12,7 @@ post_install do |installer|
     project.targets.each do |target|
         target.build_configurations.each do |config|
             config.build_settings['CLANG_WARN_STRICT_PROTOTYPES'] = 'NO'
+            config.build_settings['CLANG_WARN_DOCUMENTATION_COMMENTS'] = 'NO'
         end 
     end
 end
