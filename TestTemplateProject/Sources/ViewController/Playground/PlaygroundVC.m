@@ -16,6 +16,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+//    if ([self respondsToSelector:@selector(edgesForExtendedLayout)]) {
+//        self.edgesForExtendedLayout = UIRectEdgeNone;
+//    }
+//
+//    if (@available(iOS 11.0, *)) {
+//        self.scrollView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+//    } else {
+//        //如果设置了edgesForExtendedLayout属性不含UIRectEdgeTop时，automaticallyAdjustsScrollViewInsets则没用
+//        if ([self respondsToSelector:@selector(automaticallyAdjustsScrollViewInsets)]) {
+//            self.automaticallyAdjustsScrollViewInsets = NO;
+//        }
+//    }
 }
 
 - (void)didReceiveMemoryWarning {

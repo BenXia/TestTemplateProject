@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-void BN_swapMethodsFromClass(Class c, SEL orig, SEL new);
+void BN_swapMethodsFromClass(Class c, SEL orig, SEL newSel);
 
 @interface CommonUtils : NSObject
 

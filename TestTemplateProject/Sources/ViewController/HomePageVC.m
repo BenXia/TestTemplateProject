@@ -72,6 +72,14 @@ static const CGFloat kTableViewCellHeight = 60.0f;
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
+    if ([self respondsToSelector:@selector(edgesForExtendedLayout)]) {
+        self.edgesForExtendedLayout = UIRectEdgeNone;
+    }
+    
+    if (@available(iOS 11.0, *)) {
+        self.tableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentAutomatic;
+    }
+    
     HomePageCellModel *model1 = [HomePageCellModel modelWithTitle:@"测试内容主题"
                                                          subTitle:@"测试内容描述"
                                                           vcClass:[PlaygroundVC class]
