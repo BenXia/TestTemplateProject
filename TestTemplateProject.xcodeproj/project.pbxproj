@@ -15,7 +15,6 @@
 		33674E0E1FFA717900FFB866 /* UIUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 33674E0D1FFA717800FFB866 /* UIUtils.mm */; };
 		33674E111FFA726700FFB866 /* AppSystem.mm in Sources */ = {isa = PBXBuildFile; fileRef = 33674E101FFA726700FFB866 /* AppSystem.mm */; };
 		337EEC291EDC3F2C00EDC166 /* NSObject+DLIntrospection.m in Sources */ = {isa = PBXBuildFile; fileRef = 337EEC281EDC3F2C00EDC166 /* NSObject+DLIntrospection.m */; };
-		B0B22F2F0C05487AAA9395E7 /* libPods-TestTemplateProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6364692DBB1E35BBAC518E /* libPods-TestTemplateProject.a */; };
 		B50394D81EEE71E00016FA97 /* HomePageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B50394D61EEE71E00016FA97 /* HomePageVC.m */; };
 		B50394D91EEE71E00016FA97 /* HomePageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B50394D71EEE71E00016FA97 /* HomePageVC.xib */; };
 		B50394DE1EEE71FB0016FA97 /* PlaygroundVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B50394DC1EEE71FB0016FA97 /* PlaygroundVC.m */; };
@@ -27,6 +26,25 @@
 		B507115D1F0E4AB3008EC4AE /* BNPopoverBottomLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B50711571F0E4AB3008EC4AE /* BNPopoverBottomLayout.m */; };
 		B507115E1F0E4AB3008EC4AE /* BNPopoverCustomLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B50711591F0E4AB3008EC4AE /* BNPopoverCustomLayout.m */; };
 		B507115F1F0E4AB3008EC4AE /* BNPopoverCenterLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B507115B1F0E4AB3008EC4AE /* BNPopoverCenterLayout.m */; };
+		B53783D8231DFEE900BBEAD8 /* UIFont+QExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53783D2231DFEE900BBEAD8 /* UIFont+QExtension.swift */; };
+		B53783D9231DFEE900BBEAD8 /* String+QExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53783D3231DFEE900BBEAD8 /* String+QExtension.swift */; };
+		B53783DA231DFEE900BBEAD8 /* Array+QExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53783D4231DFEE900BBEAD8 /* Array+QExtension.swift */; };
+		B53783DB231DFEE900BBEAD8 /* UIView+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53783D5231DFEE900BBEAD8 /* UIView+SnapKit.swift */; };
+		B53783DC231DFEE900BBEAD8 /* UIImage+QExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53783D6231DFEE900BBEAD8 /* UIImage+QExtension.swift */; };
+		B53783DD231DFEE900BBEAD8 /* UIView+QAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53783D7231DFEE900BBEAD8 /* UIView+QAddView.swift */; };
+		B53783EB231DFF7D00BBEAD8 /* TextImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B53783E0231DFF7D00BBEAD8 /* TextImageVC.m */; };
+		B53783EC231DFF7D00BBEAD8 /* TextImageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B53783E1231DFF7D00BBEAD8 /* TextImageVC.xib */; };
+		B53783ED231DFF7D00BBEAD8 /* TextViewTestVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B53783E2231DFF7D00BBEAD8 /* TextViewTestVC.xib */; };
+		B53783EE231DFF7D00BBEAD8 /* CoreTextTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53783E3231DFF7D00BBEAD8 /* CoreTextTestVC.swift */; };
+		B53783EF231DFF7D00BBEAD8 /* TextViewTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53783E4231DFF7D00BBEAD8 /* TextViewTestVC.swift */; };
+		B53783F0231DFF7D00BBEAD8 /* AttachmentTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B53783E5231DFF7D00BBEAD8 /* AttachmentTestVC.m */; };
+		B53783F1231DFF7D00BBEAD8 /* AttachmentTestVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B53783E6231DFF7D00BBEAD8 /* AttachmentTestVC.xib */; };
+		B53783F2231DFF7D00BBEAD8 /* icon_fsyb_zhankai@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B53783E7231DFF7D00BBEAD8 /* icon_fsyb_zhankai@3x.png */; };
+		B53783F3231DFF7D00BBEAD8 /* icon_fsyb_zhankai@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B53783E8231DFF7D00BBEAD8 /* icon_fsyb_zhankai@2x.png */; };
+		B53783F4231DFF7D00BBEAD8 /* CoreTextTestVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B53783EA231DFF7D00BBEAD8 /* CoreTextTestVC.xib */; };
+		B53783FA231E007D00BBEAD8 /* SwiftUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = B53783F8231E007D00BBEAD8 /* SwiftUtility.m */; };
+		B5378400231E00F400BBEAD8 /* UIView+BindAction.m in Sources */ = {isa = PBXBuildFile; fileRef = B53783FC231E00F300BBEAD8 /* UIView+BindAction.m */; };
+		B5378401231E00F400BBEAD8 /* UIButton+BindAction.m in Sources */ = {isa = PBXBuildFile; fileRef = B53783FE231E00F300BBEAD8 /* UIButton+BindAction.m */; };
 		B5647F8B1EF8FB4C009CF536 /* BNPopupWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B5647F8A1EF8FB4C009CF536 /* BNPopupWindow.m */; };
 		B5647F8F1EF9084E009CF536 /* BasePopoverVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B5647F8E1EF9084E009CF536 /* BasePopoverVC.m */; };
 		B5647F991EF90B1F009CF536 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = B5647F961EF90B1F009CF536 /* MBProgressHUD+Add.m */; };
@@ -74,10 +92,11 @@
 		B5FA68AD1EF26F870077349C /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FA68A61EF26F870077349C /* BaseViewController.m */; };
 		B5FA68AE1EF26F870077349C /* BNNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FA68A91EF26F870077349C /* BNNavigationController.m */; };
 		B5FA68AF1EF26F870077349C /* BNTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FA68AC1EF26F870077349C /* BNTabBarController.m */; };
+		FB57A220B6513D52AB789FF6 /* Pods_TestTemplateProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17720FFEFE13CAE8B97F0584 /* Pods_TestTemplateProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0B6364692DBB1E35BBAC518E /* libPods-TestTemplateProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestTemplateProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17720FFEFE13CAE8B97F0584 /* Pods_TestTemplateProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestTemplateProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		330F7BBD1ED3321F0009280A /* TestTemplateProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTemplateProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		330F7BD91ED333F00009280A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		330F7BDA1ED333F00009280A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -122,6 +141,31 @@
 		B50711591F0E4AB3008EC4AE /* BNPopoverCustomLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNPopoverCustomLayout.m; sourceTree = "<group>"; };
 		B507115A1F0E4AB3008EC4AE /* BNPopoverCenterLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNPopoverCenterLayout.h; sourceTree = "<group>"; };
 		B507115B1F0E4AB3008EC4AE /* BNPopoverCenterLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNPopoverCenterLayout.m; sourceTree = "<group>"; };
+		B53783D2231DFEE900BBEAD8 /* UIFont+QExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+QExtension.swift"; sourceTree = "<group>"; };
+		B53783D3231DFEE900BBEAD8 /* String+QExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+QExtension.swift"; sourceTree = "<group>"; };
+		B53783D4231DFEE900BBEAD8 /* Array+QExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+QExtension.swift"; sourceTree = "<group>"; };
+		B53783D5231DFEE900BBEAD8 /* UIView+SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+SnapKit.swift"; sourceTree = "<group>"; };
+		B53783D6231DFEE900BBEAD8 /* UIImage+QExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+QExtension.swift"; sourceTree = "<group>"; };
+		B53783D7231DFEE900BBEAD8 /* UIView+QAddView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+QAddView.swift"; sourceTree = "<group>"; };
+		B53783DF231DFF7D00BBEAD8 /* AttachmentTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttachmentTestVC.h; sourceTree = "<group>"; };
+		B53783E0231DFF7D00BBEAD8 /* TextImageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextImageVC.m; sourceTree = "<group>"; };
+		B53783E1231DFF7D00BBEAD8 /* TextImageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextImageVC.xib; sourceTree = "<group>"; };
+		B53783E2231DFF7D00BBEAD8 /* TextViewTestVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextViewTestVC.xib; sourceTree = "<group>"; };
+		B53783E3231DFF7D00BBEAD8 /* CoreTextTestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreTextTestVC.swift; sourceTree = "<group>"; };
+		B53783E4231DFF7D00BBEAD8 /* TextViewTestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewTestVC.swift; sourceTree = "<group>"; };
+		B53783E5231DFF7D00BBEAD8 /* AttachmentTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttachmentTestVC.m; sourceTree = "<group>"; };
+		B53783E6231DFF7D00BBEAD8 /* AttachmentTestVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AttachmentTestVC.xib; sourceTree = "<group>"; };
+		B53783E7231DFF7D00BBEAD8 /* icon_fsyb_zhankai@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_fsyb_zhankai@3x.png"; sourceTree = "<group>"; };
+		B53783E8231DFF7D00BBEAD8 /* icon_fsyb_zhankai@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_fsyb_zhankai@2x.png"; sourceTree = "<group>"; };
+		B53783E9231DFF7D00BBEAD8 /* TextImageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextImageVC.h; sourceTree = "<group>"; };
+		B53783EA231DFF7D00BBEAD8 /* CoreTextTestVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoreTextTestVC.xib; sourceTree = "<group>"; };
+		B53783F7231E005100BBEAD8 /* TestTemplateProject-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestTemplateProject-Bridging-Header.h"; sourceTree = "<group>"; };
+		B53783F8231E007D00BBEAD8 /* SwiftUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiftUtility.m; sourceTree = "<group>"; };
+		B53783F9231E007D00BBEAD8 /* SwiftUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftUtility.h; sourceTree = "<group>"; };
+		B53783FC231E00F300BBEAD8 /* UIView+BindAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BindAction.m"; sourceTree = "<group>"; };
+		B53783FD231E00F300BBEAD8 /* UIButton+BindAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+BindAction.h"; sourceTree = "<group>"; };
+		B53783FE231E00F300BBEAD8 /* UIButton+BindAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BindAction.m"; sourceTree = "<group>"; };
+		B53783FF231E00F300BBEAD8 /* UIView+BindAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BindAction.h"; sourceTree = "<group>"; };
 		B5647F891EF8FB4C009CF536 /* BNPopupWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNPopupWindow.h; sourceTree = "<group>"; };
 		B5647F8A1EF8FB4C009CF536 /* BNPopupWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNPopupWindow.m; sourceTree = "<group>"; };
 		B5647F8D1EF9084E009CF536 /* BasePopoverVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePopoverVC.h; sourceTree = "<group>"; };
@@ -226,7 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5BE361822437FBB00E95404 /* SystemConfiguration.framework in Frameworks */,
-				B0B22F2F0C05487AAA9395E7 /* libPods-TestTemplateProject.a in Frameworks */,
+				FB57A220B6513D52AB789FF6 /* Pods_TestTemplateProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +320,7 @@
 				330F7BE01ED333F00009280A /* Global */,
 				33144ED41EF05059006D27AC /* Utilities */,
 				330F7BDB1ED333F00009280A /* Category */,
+				B53783D1231DFEE900BBEAD8 /* Extension */,
 				B5FA68A31EF26F870077349C /* Base */,
 				B5647F871EF8FAEC009CF536 /* Common */,
 				330F7BE11ED333F00009280A /* Network */,
@@ -290,6 +335,7 @@
 		330F7BDB1ED333F00009280A /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				B53783FB231E00F300BBEAD8 /* 添加事件 */,
 				B5647F9B1EF90E7C009CF536 /* UIView+Hierarchy.h */,
 				B5647F9C1EF90E7C009CF536 /* UIView+Hierarchy.m */,
 				330F7C0A1ED349AB0009280A /* UIView+Helper.h */,
@@ -347,6 +393,7 @@
 				B50394D61EEE71E00016FA97 /* HomePageVC.m */,
 				B50394D71EEE71E00016FA97 /* HomePageVC.xib */,
 				B50394DA1EEE71FB0016FA97 /* Playground */,
+				B53783DE231DFF7D00BBEAD8 /* TextImage */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -354,6 +401,7 @@
 		330F7BF21ED333F00009280A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B53783F7231E005100BBEAD8 /* TestTemplateProject-Bridging-Header.h */,
 				330F7BF41ED333F00009280A /* Info.plist */,
 				330F7BF51ED333F00009280A /* main.m */,
 			);
@@ -370,6 +418,8 @@
 				33674E101FFA726700FFB866 /* AppSystem.mm */,
 				B5647FF51EF91BC7009CF536 /* CommonUtils.h */,
 				B5647FF61EF91BC7009CF536 /* CommonUtils.m */,
+				B53783F9231E007D00BBEAD8 /* SwiftUtility.h */,
+				B53783F8231E007D00BBEAD8 /* SwiftUtility.m */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -437,6 +487,49 @@
 				B50711591F0E4AB3008EC4AE /* BNPopoverCustomLayout.m */,
 			);
 			path = BNPopoverLayoutStrategy;
+			sourceTree = "<group>";
+		};
+		B53783D1231DFEE900BBEAD8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B53783D2231DFEE900BBEAD8 /* UIFont+QExtension.swift */,
+				B53783D3231DFEE900BBEAD8 /* String+QExtension.swift */,
+				B53783D4231DFEE900BBEAD8 /* Array+QExtension.swift */,
+				B53783D5231DFEE900BBEAD8 /* UIView+SnapKit.swift */,
+				B53783D6231DFEE900BBEAD8 /* UIImage+QExtension.swift */,
+				B53783D7231DFEE900BBEAD8 /* UIView+QAddView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B53783DE231DFF7D00BBEAD8 /* TextImage */ = {
+			isa = PBXGroup;
+			children = (
+				B53783DF231DFF7D00BBEAD8 /* AttachmentTestVC.h */,
+				B53783E5231DFF7D00BBEAD8 /* AttachmentTestVC.m */,
+				B53783E6231DFF7D00BBEAD8 /* AttachmentTestVC.xib */,
+				B53783E3231DFF7D00BBEAD8 /* CoreTextTestVC.swift */,
+				B53783EA231DFF7D00BBEAD8 /* CoreTextTestVC.xib */,
+				B53783E7231DFF7D00BBEAD8 /* icon_fsyb_zhankai@3x.png */,
+				B53783E8231DFF7D00BBEAD8 /* icon_fsyb_zhankai@2x.png */,
+				B53783E9231DFF7D00BBEAD8 /* TextImageVC.h */,
+				B53783E0231DFF7D00BBEAD8 /* TextImageVC.m */,
+				B53783E1231DFF7D00BBEAD8 /* TextImageVC.xib */,
+				B53783E4231DFF7D00BBEAD8 /* TextViewTestVC.swift */,
+				B53783E2231DFF7D00BBEAD8 /* TextViewTestVC.xib */,
+			);
+			path = TextImage;
+			sourceTree = "<group>";
+		};
+		B53783FB231E00F300BBEAD8 /* 添加事件 */ = {
+			isa = PBXGroup;
+			children = (
+				B53783FC231E00F300BBEAD8 /* UIView+BindAction.m */,
+				B53783FD231E00F300BBEAD8 /* UIButton+BindAction.h */,
+				B53783FE231E00F300BBEAD8 /* UIButton+BindAction.m */,
+				B53783FF231E00F300BBEAD8 /* UIView+BindAction.h */,
+			);
+			path = "添加事件";
 			sourceTree = "<group>";
 		};
 		B5647F871EF8FAEC009CF536 /* Common */ = {
@@ -639,7 +732,7 @@
 			isa = PBXGroup;
 			children = (
 				B5BE361722437FBA00E95404 /* SystemConfiguration.framework */,
-				0B6364692DBB1E35BBAC518E /* libPods-TestTemplateProject.a */,
+				17720FFEFE13CAE8B97F0584 /* Pods_TestTemplateProject.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -656,7 +749,6 @@
 				330F7BBA1ED3321F0009280A /* Frameworks */,
 				330F7BBB1ED3321F0009280A /* Resources */,
 				EE8FDFD4553669115608E9F9 /* [CP] Embed Pods Frameworks */,
-				A9BE62D1E256C84913542114 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -687,6 +779,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -705,8 +798,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B53783F4231DFF7D00BBEAD8 /* CoreTextTestVC.xib in Resources */,
+				B53783F2231DFF7D00BBEAD8 /* icon_fsyb_zhankai@3x.png in Resources */,
 				B50394D91EEE71E00016FA97 /* HomePageVC.xib in Resources */,
+				B53783EC231DFF7D00BBEAD8 /* TextImageVC.xib in Resources */,
 				B50394DF1EEE71FB0016FA97 /* PlaygroundVC.xib in Resources */,
+				B53783F1231DFF7D00BBEAD8 /* AttachmentTestVC.xib in Resources */,
+				B53783ED231DFF7D00BBEAD8 /* TextViewTestVC.xib in Resources */,
+				B53783F3231DFF7D00BBEAD8 /* icon_fsyb_zhankai@2x.png in Resources */,
 				330F7C021ED334380009280A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -714,34 +813,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		A9BE62D1E256C84913542114 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestTemplateProject/Pods-TestTemplateProject-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C78992E0A88F1E52E707ACCD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestTemplateProject-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EE8FDFD4553669115608E9F9 /* [CP] Embed Pods Frameworks */ = {
@@ -750,13 +837,40 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestTemplateProject/Pods-TestTemplateProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/Mantle/Mantle.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjCBridge/ReactiveObjCBridge.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONModel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mantle.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjCBridge.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestTemplateProject/Pods-TestTemplateProject-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestTemplateProject/Pods-TestTemplateProject-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -771,6 +885,7 @@
 				B5BE35FE2243786500E95404 /* NSObject+M9BlockKVO.m in Sources */,
 				33144EF91EF05218006D27AC /* NSString+Size.m in Sources */,
 				B5FA68AD1EF26F870077349C /* BaseViewController.m in Sources */,
+				B53783DD231DFEE900BBEAD8 /* UIView+QAddView.swift in Sources */,
 				B507115C1F0E4AB3008EC4AE /* BNPopoverBaseLayout.m in Sources */,
 				B5FA68AE1EF26F870077349C /* BNNavigationController.m in Sources */,
 				B5BE35FB2243786500E95404 /* NSDictionary+M9.m in Sources */,
@@ -779,11 +894,14 @@
 				B5BE35F22243786500E95404 /* M9PagingViewController.m in Sources */,
 				B50711511F0E4A4A008EC4AE /* BNPopoverWindow.m in Sources */,
 				B5BE35FA2243786500E95404 /* NSDate+M9.m in Sources */,
+				B53783DA231DFEE900BBEAD8 /* Array+QExtension.swift in Sources */,
 				B5BE35EF2243786500E95404 /* NSObject+AssociatedObjects.m in Sources */,
+				B53783EE231DFF7D00BBEAD8 /* CoreTextTestVC.swift in Sources */,
 				B5BE36082243786500E95404 /* UIView+alignmentRectInsets.m in Sources */,
 				B5BE35F42243786500E95404 /* M9ScrollViewController.m in Sources */,
 				B50394DE1EEE71FB0016FA97 /* PlaygroundVC.m in Sources */,
 				330F7BF61ED333F00009280A /* AppDelegate.m in Sources */,
+				B5378400231E00F400BBEAD8 /* UIView+BindAction.m in Sources */,
 				B5BE36052243786500E95404 /* UIResponder+M9.m in Sources */,
 				B5BE35FC2243786500E95404 /* NSInvocation+M9.m in Sources */,
 				B507115F1F0E4AB3008EC4AE /* BNPopoverCenterLayout.m in Sources */,
@@ -792,14 +910,17 @@
 				B5647F9A1EF90B1F009CF536 /* MBProgressHUD.m in Sources */,
 				B5647F991EF90B1F009CF536 /* MBProgressHUD+Add.m in Sources */,
 				B5647F8B1EF8FB4C009CF536 /* BNPopupWindow.m in Sources */,
+				B53783EB231DFF7D00BBEAD8 /* TextImageVC.m in Sources */,
 				B5BE360B2243786500E95404 /* UIViewController+M9.m in Sources */,
 				B5BE35F02243786500E95404 /* M9AlertController.m in Sources */,
+				B53783FA231E007D00BBEAD8 /* SwiftUtility.m in Sources */,
 				B5647F9D1EF90E7C009CF536 /* UIView+Hierarchy.m in Sources */,
 				330F7C0D1ED349AB0009280A /* UIView+Helper.m in Sources */,
 				B5BE36002243786500E95404 /* NSURL+M9.m in Sources */,
 				B5647FA71EF90EC1009CF536 /* GCDGroup.m in Sources */,
 				B50711521F0E4A4A008EC4AE /* BNPopoverWindowRootVC.m in Sources */,
 				B5BE36022243786500E95404 /* UIControl+M9EventCallback.m in Sources */,
+				B53783D9231DFEE900BBEAD8 /* String+QExtension.swift in Sources */,
 				B5BE360F2243799800E95404 /* JRSwizzle.m in Sources */,
 				B5BE35FD2243786500E95404 /* NSObject+AssociatedValues.m in Sources */,
 				B5BE35F82243786500E95404 /* NSArray+M9.m in Sources */,
@@ -807,17 +928,21 @@
 				B5BE35F92243786500E95404 /* NSData+M9.m in Sources */,
 				B5BE35F52243786500E95404 /* M9TableViewController.m in Sources */,
 				B5BE35F12243786500E95404 /* M9CollectionViewController.m in Sources */,
+				B5378401231E00F400BBEAD8 /* UIButton+BindAction.m in Sources */,
 				B5BE35EE2243786500E95404 /* ARCWeakRef.m in Sources */,
 				B5BE361622437FA900E95404 /* Reachability.m in Sources */,
 				33674E0E1FFA717900FFB866 /* UIUtils.mm in Sources */,
+				B53783EF231DFF7D00BBEAD8 /* TextViewTestVC.swift in Sources */,
 				B5BE361222437F0600E95404 /* NSString+URLEncode.m in Sources */,
 				33674E111FFA726700FFB866 /* AppSystem.mm in Sources */,
 				B5FA68AF1EF26F870077349C /* BNTabBarController.m in Sources */,
 				B5BE36062243786500E95404 /* UIScrollView+M9.m in Sources */,
 				330F7C001ED333F00009280A /* main.m in Sources */,
 				B5647F8F1EF9084E009CF536 /* BasePopoverVC.m in Sources */,
+				B53783D8231DFEE900BBEAD8 /* UIFont+QExtension.swift in Sources */,
 				B5BE36032243786500E95404 /* UIImage+M9.m in Sources */,
 				B507115E1F0E4AB3008EC4AE /* BNPopoverCustomLayout.m in Sources */,
+				B53783DB231DFEE900BBEAD8 /* UIView+SnapKit.swift in Sources */,
 				B5BE360A2243786500E95404 /* UIViewController+EventNotifications.m in Sources */,
 				B5BE36072243786500E95404 /* UITableViewCell+M9.m in Sources */,
 				B5BE35F72243786500E95404 /* M9Utilities.m in Sources */,
@@ -825,9 +950,11 @@
 				B5BE35F32243786500E95404 /* M9ProgressCoverView.m in Sources */,
 				B507113D1F0E4A39008EC4AE /* BaseWindowRootVC.m in Sources */,
 				B5647FF71EF91BC7009CF536 /* CommonUtils.m in Sources */,
+				B53783DC231DFEE900BBEAD8 /* UIImage+QExtension.swift in Sources */,
 				337EEC291EDC3F2C00EDC166 /* NSObject+DLIntrospection.m in Sources */,
 				B5BE35FF2243786500E95404 /* NSObject+NTFObserver.m in Sources */,
 				B5BE36012243786500E95404 /* Reachability+.m in Sources */,
+				B53783F0231DFF7D00BBEAD8 /* AttachmentTestVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -948,6 +1075,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CLANG_WARN_STRICT_PROTOTYPES = NO;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -959,6 +1087,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = iOSStudio.TestTemplateProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestTemplateProject/Supporting Files/TestTemplateProject-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
 				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
@@ -971,6 +1101,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CLANG_WARN_STRICT_PROTOTYPES = NO;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -982,6 +1113,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = iOSStudio.TestTemplateProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestTemplateProject/Supporting Files/TestTemplateProject-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
 				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;

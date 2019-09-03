@@ -1,23 +1,71 @@
 PODS:
-  - IQKeyboardManager (5.0.7)
+  - IQKeyboardManager (6.4.0)
+  - JSONModel (1.8.0)
+  - Mantle (2.1.0):
+    - Mantle/extobjc (= 2.1.0)
+  - Mantle/extobjc (2.1.0)
   - Masonry (1.1.0)
-  - ReactiveObjC (3.0.0)
-  - SDWebImage (4.2.2):
-    - SDWebImage/Core (= 4.2.2)
-  - SDWebImage/Core (4.2.2)
+  - MJExtension (3.1.1)
+  - ReactiveCocoa (8.0.2):
+    - ReactiveSwift (~> 4.0)
+  - ReactiveObjC (3.1.1)
+  - ReactiveObjCBridge (4.0.0):
+    - ReactiveObjC (~> 3.1)
+    - ReactiveSwift (~> 4.0)
+  - ReactiveSwift (4.0.0):
+    - Result (~> 4.0)
+  - Result (4.1.0)
+  - SDWebImage (5.1.0):
+    - SDWebImage/Core (= 5.1.0)
+  - SDWebImage/Core (5.1.0)
+  - SnapKit (4.2.0)
+  - YYModel (1.0.4)
 
 DEPENDENCIES:
   - IQKeyboardManager
+  - JSONModel
+  - Mantle
   - Masonry
+  - MJExtension
+  - ReactiveCocoa
   - ReactiveObjC
+  - ReactiveObjCBridge
+  - ReactiveSwift
   - SDWebImage
+  - SnapKit
+  - YYModel
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - IQKeyboardManager
+    - JSONModel
+    - Mantle
+    - Masonry
+    - MJExtension
+    - ReactiveCocoa
+    - ReactiveObjC
+    - ReactiveObjCBridge
+    - ReactiveSwift
+    - Result
+    - SDWebImage
+    - SnapKit
+    - YYModel
 
 SPEC CHECKSUMS:
-  IQKeyboardManager: 0bfa4607d39924116b5c0c8b55b5d789288b5cba
+  IQKeyboardManager: fcef267266379c003181fc3592f6bdb8bf4db839
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  Mantle: 2fa750afa478cd625a94230fbf1c13462f29395b
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  ReactiveObjC: ce79989e8684b9086b5f8d0c74bc7b81a8729c9e
-  SDWebImage: 89a9d32cd520bbb46eb14e541d5109b3564af198
+  MJExtension: dfef9855ee178e1ce67f3e03b71ca4226330d87d
+  ReactiveCocoa: fbd26e9ba60e98417ee47433e59465a98ed9da0f
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  ReactiveObjCBridge: c2e4c6a8c1f960902f48ce2ee4ff2b24b8ae172d
+  ReactiveSwift: a2bb9ace428a109e9c0209615645d9d286c8c433
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  SDWebImage: fb387001955223213dde14bc08c8b73f371f8d8f
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: bc0de7dd2cac8e5d991e4891c7bf2bdfe379e7f5
+PODFILE CHECKSUM: 5b3dc42a2ba839d5b978569dc702c2056029a0c3
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.7.5
